@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Data — never commit datasets
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+data/
+
+# Secrets
+.env
+*.pem
+credentials.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
